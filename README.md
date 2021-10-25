@@ -1,7 +1,7 @@
 # Repro
 
 1. `npm i`
-1. `npm --no-git-tag-version --workspaces version "1.42.0"`
+1. `npm --no-git-tag-version --workspaces version "1.42.0"` (version which does not exist on NPM)
 1. Edit `packages/playwright-test/package.json` bump there the `playwright-core` dependency to `=1.42.0`.
 1. `npm install`
 

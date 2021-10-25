@@ -6,6 +6,7 @@
 1. `npm install`
 
 Expected: Works. Project gets successfully installed
+
 Actual: Error gets thrown:
 
 ```shell
